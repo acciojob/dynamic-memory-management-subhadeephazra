@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#elementContainer {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#memoryUsage {
+    margin-top: 10px;
+    color: red;
+}
